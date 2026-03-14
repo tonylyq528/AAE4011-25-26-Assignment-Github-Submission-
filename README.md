@@ -106,10 +106,11 @@ rosbag play --rate 0.1 2026-02-02-17-57-27.bag
 ```
 
 ## 6. Sample Results
-### Detection Log Summary
-```
 
-```
+
+### Detection Log Summary
+
+
 
 ### Key Detection Metrics
 - **Supported Vehicle Classes**: Car (class ID 2), Motorcycle (class ID 3), Bus (class ID 5), Truck (class ID 7)
