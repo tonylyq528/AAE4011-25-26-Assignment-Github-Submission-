@@ -4,7 +4,7 @@
 
 markdown
 # AAE4011-Assignment 1-Q3: ROS-Based Vehicle Detection from Rosbag
-Student Name: [你的名字] | Student ID: [你的学号] | Date:14th March, 2026
+Student Name: LongYiqi | Student ID: 23107894D | Date:14th March, 2026
 
 ## 1. Overview
 This ROS package implements real-time vehicle detection for unmanned aerial systems (UAS) using YOLOv8 deep learning model. The pipeline processes compressed image streams from a given rosbag file, detects typical vehicle categories (cars, trucks, buses, motorcycles), and outputs detection results through terminal logs and video file saving (due to WSL2 GUI limitations, real-time window visualization is replaced by video recording).
@@ -109,21 +109,7 @@ rosbag play --rate 0.1 2026-02-02-17-57-27.bag
 ## 6. Sample Results
 ### Detection Log Summary
 ```
-[INFO] ✅ 车辆检测节点已启动！
-[INFO] 📸 第1帧：检测到3辆车
-[INFO] 📸 第2帧：检测到2辆车 (1 car, 1 bus)
-[INFO] 📸 第3帧：检测到4辆车 (2 cars, 1 bus, 1 truck)
-...
-[INFO] 📹 检测结果已保存到 detection_result.mp4
-==================================================
-DETECTION COMPLETE
-==================================================
-Total frames processed: 1142
-Total vehicles detected: 2876
-Average vehicles per frame: 2.52
-Inference speed: ~29ms per frame
-Output video: detection_result.mp4 (512x640 resolution, 10 FPS)
-==================================================
+
 ```
 
 ### Key Detection Metrics
