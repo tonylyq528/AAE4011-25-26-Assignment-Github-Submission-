@@ -108,7 +108,7 @@ rosbag play --rate 0.1 2026-02-02-17-57-27.bag
 ## 6. Sample Results
 
 ```
-![sample](https://github.com/tonylyq528/AAE4011-25-26-Assignment-Github-Submission-/blob/main/assets/image.png)
+![sample](assets/image.png)
 ```
 
 ### Detection Log Summary
