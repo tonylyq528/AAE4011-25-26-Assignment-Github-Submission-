@@ -18,7 +18,16 @@ I selected YOLOv8n (the nano version of YOLOv8) for this project due to the key 
 
 ## 3. Repository Structure
 ```
-├── assets/ # Sample result images (for README visualization)├── launch/ # ROS launch files│ └── detection.launch # Launch file for vehicle detection node├── scripts/ # Core Python detection scripts│ └── detection_node.py # MAIN DETECTOR (YOLOv8 + ROS image processing)├── CMakeLists.txt # ROS build configuration (Python node setup)├── package.xml # ROS package dependencies declaration└── README.md # Project documentation (this file)
+AAE4011-25-26-Assignment-Github-Submission-/
+├── assets/                 # Sample result images 
+├── launch/                 # ROS launch files
+│   └── detection.launch    # Launch file for vehicle detector node
+├── scripts/                # Core Python scripts
+│   └── detection_node.py   # MAIN DETECTOR: YOLOv8 + ROS compressed image processing
+├── CMakeLists.txt          # ROS build configuration (Python node setup)
+├── package.xml             # ROS package dependencies declaration
+└── README.md               # Project documentation (this file)
+
 ```
 
 ## 4. Prerequisites
@@ -101,6 +110,8 @@ rosbag play --rate 0.1 2026-02-02-17-57-27.bag
 
 ```
 [sample result](https://github.com/tonylyq528/AAE4011-25-26-Assignment-Github-Submission-/blob/main/assets/image.png)```
+```
+
 
 ### Detection Log Summary
 
