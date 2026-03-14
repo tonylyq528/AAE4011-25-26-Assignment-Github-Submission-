@@ -18,15 +18,7 @@ I selected YOLOv8n (the nano version of YOLOv8) for this project due to the key 
 
 ## 3. Repository Structure
 ```
-vehicle_detection/
-├── CMakeLists.txt          # ROS build configuration (Python node installation)
-├── package.xml             # ROS package dependencies declaration
-├── README.md               # Project documentation (this file)
-├── .gitignore              # Git ignore rules (exclude rosbag, video, logs)
-├── launch/                 # ROS launch files
-│   └── detection.launch    # Launch file for detector node
-└── scripts/                # Core Python scripts
-    └── detection_node.py   # MAIN DETECTOR (YOLOv8 + ROS image processing)
+├── assets/ # Sample result images (for README visualization)├── launch/ # ROS launch files│ └── detection.launch # Launch file for vehicle detection node├── scripts/ # Core Python detection scripts│ └── detection_node.py # MAIN DETECTOR (YOLOv8 + ROS image processing)├── CMakeLists.txt # ROS build configuration (Python node setup)├── package.xml # ROS package dependencies declaration└── README.md # Project documentation (this file)
 ```
 
 ## 4. Prerequisites
@@ -121,7 +113,8 @@ rosbag play --rate 0.1 2026-02-02-17-57-27.bag
 - **Statistical Output**: Total frames processed + real-time vehicle count per frame
 
 ## 7. Video Demonstration
-Video Demo Link: [你的视频链接，如YouTube/OneDrive/Google Drive]
+
+Video Demo Link: https://www.youtube.com/watch?v=VdiGzv8fUZ8
 
 This video demonstrates:
 1. The process of launching ROS Master, detector node and rosbag playback
