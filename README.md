@@ -1,7 +1,7 @@
 # AAE4011-25-26-Assignment-Github-Submission-
 
 
-markdown
+
 # AAE4011-Assignment 1-Q3: ROS-Based Vehicle Detection from Rosbag
 Student Name: LongYiqi | Student ID: 23107894D | Date:14th March, 2026
 
@@ -108,7 +108,7 @@ rosbag play --rate 0.1 2026-02-02-17-57-27.bag
 ## 6. Sample Results
 ### Detection Log Summary
 ```
-![sample](assets/image.png)
+image.png
 ```
 
 ### Key Detection Metrics
